@@ -1,0 +1,28 @@
+.content {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 3px;
+  background-color: #fff;
+}
+.content .coninner {
+  width: 75%;
+  margin: auto;
+  max-width: 1020px;
+}
+.content .coninner .aboutimg {
+  width: 50%;
+  padding: 10% 0 0;
+  margin: 0 25%;
+}
+.content .coninner h2 {
+  margin-top: 0;
+  margin-bottom: 12%;
+}
+.content .coninner .text {
+  width: 80%;
+  margin: auto;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  margin-bottom: 20%;
+}
+/*# sourceMappingURL=about.css.map */

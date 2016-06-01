@@ -1,0 +1,43 @@
+@media screen and (max-width: 900px) {
+  header .midd {
+    position: fixed;
+  }
+  header .midd .inner {
+    width: 95%;
+  }
+  header .midd .inner .nav1 {
+    margin-top: 68px;
+    width: 100%;
+  }
+  header .midd .inner .nav1 a {
+    display: block;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    text-align: left;
+  }
+  header .midd .inner .meiu {
+    width: 30px;
+    height: 56px;
+    margin-top: 10px;
+    position: absolute;
+    right: 3%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  header .midd .inner .meiu span {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #000000;
+  }
+}
+@media screen and (max-width: 750px) {
+  html,
+  body {
+    font-size: 7px;
+  }
+  html header .midd .inner,
+  body header .midd .inner {
+    background-size: 90px 20px;
+  }
+}
+/*# sourceMappingURL=buju2.css.map */

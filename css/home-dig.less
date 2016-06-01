@@ -1,0 +1,130 @@
+.content{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 3px;
+    background-color: #f5f5f5;
+    position: relative;
+    .coninner{
+        width: 100%;
+        .swiper{
+            width: 100%;
+            position: relative;
+            margin-bottom: 5%;
+            .swiperInner{
+                width: 400%;
+                height: 702px;
+                position: relative;
+                left: 0;
+                img{
+                    width: 100/4%;
+                    height: 100%;
+                    float: left;
+                }
+            }
+            .bar{
+                width: 100%;
+                height: 5%;
+                position: absolute;
+                bottom: 0;
+                text-align: center;
+                span{
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 15px;
+                    margin: 0 5px;
+                    background-color: #ccc;
+                }
+                .spbg1{
+                    background-color: #ccc;
+                }
+                .spbg2{
+                    background-color: #cfdb00;
+                }
+            }
+        }
+        .pubu{
+            width: 100%;
+            ul{
+                width: 90%;
+                margin: 0 auto;
+                padding-bottom: 10%;
+                li{
+                    width: 100/3.2%;
+                    padding: 0.5%;
+                    float: left;
+                    img{
+                        width: 100%;
+                        padding-top: 10px;
+                    }
+                    .divimg{
+                        position: relative;
+                        .divmask{
+                            width: 80%;
+                            height:80%;
+                            margin: auto;
+                            position: absolute;
+                            top:0;
+                            left:0;
+                            bottom: 0;
+                            right: 0;
+                            box-sizing: border-box;
+                            background-color: hsla(63,65%,40%,0.7);
+                            opacity: 0;
+                            transition: all 1s;
+                            .seo{
+                                width: 32px;
+                                height: 32px;
+                                margin: auto;
+                                position: absolute;
+                                top:0;
+                                left:0;
+                                bottom: 0;
+                                right: 0;
+                            }
+                        }
+                    }
+                    .divimg:hover .divmask{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    .tops{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 0.5%;
+        text-align: center;
+        a{
+            display: inline-block;
+            width: 80px;
+            height: 100%;
+            background: url(../img/drawing-huitop.png) no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+}
+@media screen and (max-width: 750px) {
+    html,body{
+        font-size: 7px;
+        .content{
+            .coninner{
+                .swiper{
+                    .swiperInner{
+                        height: 400px;
+                    }
+                    
+                }
+            }
+            .tops{
+                height: 40px;
+               a{
+                    width: 40px;
+                    height: 100%; 
+               }
+            }
+        }
+    }
+}
